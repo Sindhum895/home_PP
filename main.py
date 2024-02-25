@@ -10,7 +10,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
 
-csv_file_path = "Housing.csv"  
+csv_file_path = "home_PP/Housing.csv"  
 data = pd.read_csv(csv_file_path)
 
 target_variable_name = 'price'
